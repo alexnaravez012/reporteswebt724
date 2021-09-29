@@ -1203,7 +1203,7 @@
     pointer-events: none;
     border-style: solid;
     border-width: 6px 3px 0px 5px;
-    border-color: #3B6093 transparent transparent transparent;
+    border-color: #808080 transparent transparent transparent;
 }
 
 .select-create-product-reports select:hover~.select_arrow-create-product-reports,
@@ -1552,7 +1552,7 @@
     outline: 0;
     border: none;
     font-size: 12px;
-    border-bottom: 1px solid #808080 !important;
+    border-bottom: 1px solid #b4b4b4 !important;
     border-radius: 0px;
     background: #ffffff;
     color: #a8a8a8;
@@ -1577,12 +1577,12 @@
     pointer-events: none;
     border-style: solid;
     border-width: 6px 3px 0px 5px;
-    border-color: #3B6093 transparent transparent transparent;
+    border-color: #696969 transparent transparent transparent;
 }
 
 .select-create-product-returns select:hover~.select_arrow-create-product-returns,
 .select-create-product-returns select:focus~.select_arrow-create-product-returns {
-    border-top-color: #3B6093;
+    border-top-color: #6d6d6d;
 }
 
 .select-create-product-returns select:disabled~.select_arrow-create-product-returns {
@@ -1596,7 +1596,7 @@
 
 .input-date-returns {
     border: none;
-    border-bottom: 1px solid #8a8a8a;
+    border-bottom: 1px solid #acaaaa;
     width: 140px;
     color: #acacac;
     margin-bottom: 10px;
@@ -1605,6 +1605,10 @@
 
 .input-date-returns:focus {
     outline: 0;
+}
+
+.color-green {
+    color: rgb(62, 126, 91);
 }
 
 .navbar-product-select-returns {
@@ -1719,7 +1723,7 @@
     pointer-events: none;
     border-style: solid;
     border-width: 6px 3px 0px 5px;
-    border-color: #3B6093 transparent transparent transparent;
+    border-color: #777777 transparent transparent transparent;
 }
 
 .select-store-box-reports select:hover~.select_arrow-store-box-reports,
